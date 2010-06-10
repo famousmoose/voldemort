@@ -39,7 +39,7 @@ public class RequestCounter {
         if(elapsed > 0f) {
             return (float) (oldv.count / elapsed);
         } else {
-            return -1f;
+            return 0f;
         }
     }
 
